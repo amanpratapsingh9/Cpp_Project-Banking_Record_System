@@ -150,6 +150,7 @@ void account_query::delete_rec()
     rename("tmpfile.bank", "record.bank");
 }
 
+
 int main()
 {
     account_query A;
