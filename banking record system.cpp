@@ -60,6 +60,7 @@ void account_query::read_rec()
         cout<<"Error in Opening! File Not Found!!"<<endl;
         return;
     }
+    
     cout<<"\n***Data from file****"<<endl;
     while(!infile.eof())
     {
